@@ -1,0 +1,7 @@
+data/*
+files/*
+!data/test_data.jsonl
+
+.vscode/
+bak/
+test_scripts/
