@@ -23,6 +23,11 @@ The best is to
 	``playwright install chromium``<br>
 	Note: the code has been tested with Chromium v857950 but the last version of the browser will be installed
 
+If needed, you can add ``iris_utils`` as a submodule with (this should be already in place after point 2 above):
+* ``git submodule add https://github.com/n3ssuno/iris-utils.git iris_utils``
+* ``git commit -m "Add iris-utils submodule"``
+* ``git push``
+
 ### GUI classifier on WSL2
 1. Install ``qt5-default`` on the WSL2 distro
 2. Install X410 on Windows (the free alternatives did not work for me) and select ``Allow Public Access`` from its menu
