@@ -12,13 +12,12 @@ Once you have chosen the right category for a page the software moves to the nex
 ## Setup the classifier
 The best is to 
 1. Install [Git](https://git-scm.com/)
-2. Clone this repository with ``git clone https://gitlab.tue.nl/iris/iris-vpm-pages-classifier.git``
+2. Clone this repository with ``git clone https://github.com/n3ssuno/iris-classifier.git``
 3. Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 4. Create an environment with
     * ``conda create -n iris-vpm-pages-classifier python=3.9``
 	* ``conda activate iris-vpm-pages-classifier``
 	* ``pip install -r requirements.txt``
-	* ``pip install git+https://gitlab.tue.nl/iris/iris-utils.git``
 5. If you need to use the pre-classifier, you must also install a headless browser with the following command<br>
 	``playwright install chromium``<br>
 	Note: the code has been tested with Chromium v857950 but the last version of the browser will be installed
